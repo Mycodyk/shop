@@ -17,7 +17,7 @@ export const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <p className={styles.footer_copyright}>Mycodyk</p>
+            <a href='https://github.com/Mycodyk' className={styles.footer_copyright}>Mycodyk</a>
         </footer>
     )
 }

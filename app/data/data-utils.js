@@ -1,8 +1,8 @@
-import { data } from './data';
+import { data } from './data.js';
 
 export const getClothesByCategory = (category) => {
     return data.filter((clothes) => {
-        return clothes.category.find((item) => item.name = category)
+        return clothes.category.find((item) => item.name === category)
     });
 };
 

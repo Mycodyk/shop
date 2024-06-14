@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { Card } from "../Card/Card";
-import Styles from "./CardsList.module.css";
+import Styles from "./CardList.module.css";
+import { FC } from "react";
 
-export const CardsList = (props) => {
+interface Props {
+  id: string;
+  data: Array<any>;
+}
+
+export const CardsList:FC<Props> = (props) => {
   //сейчас массив с кроссовками пуст
   return (
     <section className={Styles["list-section"]}>

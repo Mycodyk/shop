@@ -4,7 +4,7 @@ import { FC } from 'react';
 interface Props{
     image: string,
     name: string;
-    price: string;
+    price: number;
 }
 
 export const Card:FC<Props> = ({ image, name, price }) => {

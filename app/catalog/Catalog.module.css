@@ -1,0 +1,28 @@
+
+.main_catalog{
+    position: relative;
+    height: 75vh;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+.title{
+    font-family: Unbounded, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.category_wrapper {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+    left: 300px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 100;
+  }
+  
