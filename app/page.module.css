@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 105vh;
+  background-image: url(/main.png);
+  opacity: 0.6;
+}
+
+.main_description{
+  position: relative;
+  right: 250px;
+  top: 280px;
+}
+
+.main_title {
+  font-family: Unbounded, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.main_subtitle{
+  font-family: Unbounded, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.main_button{
+  background-color: black;
+  border: none;
+  font-family: Unbounded, sans-serif;
+  width: 180px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  right: 500px;
+  bottom: 230px;
+}

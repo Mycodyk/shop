@@ -1,0 +1,36 @@
+.clothes{
+    display: flex;
+    flex-direction: column;
+    max-width: 364px;
+    height: 100%;
+    border-radius: 12px;
+    transition: all 250ms linear;
+    overflow: hidden;
+  }
+  
+  .clothes:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: translateY(-10px);
+  }
+  
+  .clothes_image {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .clothes_info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 10px;
+  }
+  
+  .clothes_name {
+    font-size: 26px;
+  }
+  
+  .clothes_title {
+    font-size: 20px;
+  }
+  

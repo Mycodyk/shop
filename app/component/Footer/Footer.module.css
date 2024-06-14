@@ -1,0 +1,46 @@
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    position: relative;
+    left: 100px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    bottom: 15px;
+}
+
+.social_list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.social__links{
+    color: white;
+    font-family: Unbounded, sans-serif;
+    font-weight: normal;
+}
+
+.social__links:hover{
+    color: #96FF55;
+    text-decoration: underline;
+    font-family: Unbounded, sans-serif;
+    font-weight: normal;
+}
+
+.footer_copyright{
+    color: #707070;
+    font-family: Unbounded, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
